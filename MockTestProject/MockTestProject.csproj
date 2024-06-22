@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <Folder Include="01 - Traits\" />
+    <Folder Include="04 - Mock\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MockTestProject._03___Dados_Humanos
+namespace Features.Tests
 {
     public class ClienteBogusTests
     {
