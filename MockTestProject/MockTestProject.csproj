@@ -28,7 +28,6 @@
   <ItemGroup>
     <Folder Include="01 - Traits\" />
     <Folder Include="04 - Mock\" />
-    <Folder Include="05 - AutoMock\" />
     <Folder Include="06 - FluentAssertions\" />
     <Folder Include="07 - Skip\" />
   </ItemGroup>

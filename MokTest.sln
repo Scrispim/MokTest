@@ -7,6 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MockTest", "MokTest\MockTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MockTestProject", "MockTestProject\MockTestProject.csproj", "{F654F6B8-DBCC-493C-83DB-CE7B0F55156C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Unit Test", "01 Unit Test", "{86F4707F-553E-4AE3-B7EE-C63D87F74648}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 TDD", "02 TDD", "{EA65123A-6F5D-43A5-88ED-C74275A02035}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FDF25352-C97B-4F0D-BF27-96C321B6EB81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{408666F0-B139-4A4B-BC8A-CC5A3F21AADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +32,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE5D3D13-8D4D-4424-953B-290C495D800F} = {86F4707F-553E-4AE3-B7EE-C63D87F74648}
+		{F654F6B8-DBCC-493C-83DB-CE7B0F55156C} = {86F4707F-553E-4AE3-B7EE-C63D87F74648}
+		{FDF25352-C97B-4F0D-BF27-96C321B6EB81} = {EA65123A-6F5D-43A5-88ED-C74275A02035}
+		{408666F0-B139-4A4B-BC8A-CC5A3F21AADB} = {EA65123A-6F5D-43A5-88ED-C74275A02035}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6768DFDB-72E7-4107-BAAB-88FA5499BC88}
