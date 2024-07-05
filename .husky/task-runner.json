@@ -9,6 +9,15 @@
             "command": "cmd",
             "args": ["/c", "echo Husky.Net is awesome!" ]
          }
+      },
+      {
+         "name": "running-test-before-push",
+         "command": "bash",
+         "args": [ "-c", "dotnet test" ],
+         "windows": {
+            "command": "cmd",
+            "args": ["/c", "dotnet test" ]
+         }
       }
    ]
 }
