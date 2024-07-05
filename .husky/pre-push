@@ -11,7 +11,7 @@
 #husky run --group group-name
 
 ## run task with name: 'task-name'
-#dotnet husky run --name running-test-before-push
+dotnet husky run --name running-test-before-push
 
 ## pass hook arguments to task
 #husky run --args "$1" "$2"
@@ -19,4 +19,4 @@
 ## or put your custom commands -------------------
 #echo 'Husky.Net is awesome!'
 
-
+#echo 'Husky.Net is awesome!'

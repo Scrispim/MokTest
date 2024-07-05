@@ -24,7 +24,7 @@ namespace Features.Tests
             var result = cliente.EhValido();
 
             // Assert 
-            Assert.False(result);
+            Assert.True(result);
             Assert.Equal(0, cliente.ValidationResult.Errors.Count);
         }
 
